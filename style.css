@@ -12,6 +12,11 @@ body {
 	flex-direction: column;
 }
 
+.imagebox {
+	display: flex;
+	border: solid 1px red;
+}
+
 .quote {
 	font-family: 'Courgette', cursive;
 	font-size: 3em;
