@@ -2,13 +2,19 @@
 	"contents": {
 		"quotes": [{
 			"quote": "Ou tu sors ou j'te sors,<br>mais va falloir prendre une décision!",
-			"author": "Claudie Focan"
+			"author": "Claudy Focan"
 		}, {
-			"quote": "Faut faire refaire, hein, Alien!",
-			"author": "Claudie Focan"
+			"quote": "Va te faire refaire, hein, Alien!",
+			"author": "Claudy Focan"
 		}, {
 			"quote": "On n'est pas sur la Croisette, ici, hein!!",
 			"author": "JC"
+		}, {
+			"quote": "— Dis bonjour, Sabine.<br>— Bonjour Sabine!",
+			"author": "JC"
+		}, {
+		  	"quote": "Allo M'man ? Claudy à l'appareil,<br>je viens de me faire carjacker,<br>je dis je viens de me faire carjacker,<br>on a volé l'auto !",
+		  	"author": "Claudy Focan"
 		}]
 	}
 }
