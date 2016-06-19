@@ -5,6 +5,7 @@ $(document).ready( function() {
 		console.log('whichQuote', whichQuote);
 		quote = '"' + json.contents.quotes[whichQuote].quote + '"';
 		$(".quote").html(quote);
+  getTweetContent();
 	});
 
 	$("#getQuote").click(function () {
@@ -14,6 +15,17 @@ $(document).ready( function() {
 			console.log('whichQuote', whichQuote);
 			quote = '"' + json.contents.quotes[whichQuote].quote + '"';
 			$(".quote").html(quote);
+      getTweetContent();
 		});
 	});
+
+  function getTweetContent () {
+    var quoteToTweet = $(".quote").html();
+    quoteToTweet = quoteToTweet.replace(/<br>/g, ' ');
+    console.log('quoteToTweet: ', quoteToTweet);
+    if (quoteToTweet.length > 130) {
+      console.log("OVER LENGTH");
+    }
+  };
+
 });
