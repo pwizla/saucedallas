@@ -12,7 +12,7 @@ body {
 	flex-direction: column;
 }
 
-.imagebox {
+.imagebox, .tweetbox {
 	display: flex;
 }
 
