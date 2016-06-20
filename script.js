@@ -23,9 +23,17 @@ $(document).ready( function() {
     var quoteToTweet = $(".quote").html();
     quoteToTweet = quoteToTweet.replace(/<br>/g, ' ');
     console.log('quoteToTweet: ', quoteToTweet);
+    return quoteToTweet;
     if (quoteToTweet.length > 130) {
       console.log("OVER LENGTH");
     }
   };
+
+  $("#tweetButton").click(function() {
+    var quoteToTweet = $(".quote").html();
+    quoteToTweet = quoteToTweet.replace(/<br>/g, ' ');
+    $("#tweetButton").attr("href", "http://twitter.com/intent/tweet?text=" + quoteToTweet + "&via=SurLesBoulettes");
+  });
+
 
 });
