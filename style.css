@@ -58,7 +58,57 @@ button:hover {
 	background-color: rgba(250,161,21, .5);
 }
 
+button:active {
+  background-color: rgba(92,59,8, .8);
+  color: rgb(250,161,21);
+}
+
 .quotebox {
-	padding-bottom: 5em;
-	/*border: solid 1px #5c3b08;*/
+	padding-bottom: 2em;
+}
+
+.fa-twitter {
+  font-size: 2em !important;
+	color: #5C3B08;
+}
+
+.fa-twitter:hover {
+  color: #4099FF;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 260px;
+  background-color: #4099FF;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: .9em;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  top: 100%;
+  left: 50%;
+  position: absolute;
+  z-index: 1;
+  margin-left: -130px;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%; /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #4099FF transparent;
 }
