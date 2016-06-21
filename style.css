@@ -42,6 +42,38 @@ img {
 	flex: 1;
 }
 
+.spacer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1em;
+}
+
+.author, .author a {
+  font-size: .9em;
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgba(92,59,8, 0.4); 
+}
+
+.author:hover, 
+.author:hover .author a {
+  color: rgba(92,59,8, 0.7); 
+}
+
+.author:hover a {
+  color: rgba(92,59,8, 0.7); 
+}
+
+.author a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.author a:hover {
+  background-color: #4099FF;
+  color: #fff;
+}
+
 button { 
 	border-radius: 10%;
 	flex-basis: 150px;
