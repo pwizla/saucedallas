@@ -16,6 +16,10 @@ body {
 	display: flex;
 }
 
+.imagebox {
+  padding-top: 3em;
+}
+
 .quote {
 	font-family: 'Courgette', cursive;
 	font-size: 2.5em;
