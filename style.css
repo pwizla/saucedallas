@@ -148,3 +148,7 @@ button:active {
   border-style: solid;
   border-color: transparent transparent #4099FF transparent;
 }
+
+.tooltip:focus {
+  outline: 0;
+}
