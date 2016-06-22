@@ -32,7 +32,7 @@ $(document).ready( function() {
   $("#tweetButton").click(function() {
     var quoteToTweet = $(".quote").html();
     quoteToTweet = quoteToTweet.replace(/<br>/g, ' ');
-    $("#tweetButton").attr("href", "http://twitter.com/intent/tweet?text=" + quoteToTweet + "&via=SurLesBoulettes");
+    $("#tweetButton").attr("href", "http://twitter.com/intent/tweet?text=" + quoteToTweet + "&hashtags=Dikkenek,10ans&via=SurLesBoulettes");
   });
 
 
