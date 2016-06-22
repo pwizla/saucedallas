@@ -55,8 +55,7 @@ img {
   color: rgba(92,59,8, 0.4); 
 }
 
-.author:hover, 
-.author:hover .author a {
+.author:hover, {
   color: rgba(92,59,8, 0.7); 
 }
 
@@ -108,7 +107,7 @@ button:active {
 	color: #5C3B08;
 }
 
-.fa-twitter:hover {
+.fa-twitter:hover, .fa-twitter:active, .fa-twitter:focus {
   color: #4099FF;
 }
 
